@@ -3,10 +3,15 @@
   "node": true,
   "undef": true,
   "unused": true,
+  "asi": true,
+  "expr": true,
   "globals": {
     "require": false,
     "module": false,
     "process": false,
     "__dirname": false
+    "expect": false,
+    "it": false,
+    "describe": false
   }
 }
